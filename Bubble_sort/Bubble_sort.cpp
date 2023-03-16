@@ -40,6 +40,17 @@ void bubbleSortArray() {
     }
 }
 
+void unsorted() {
+    cout << end1;
+    cout << "============================" << end1;
+    cout << "Element Array yang belum tersusun" << end1;
+    cout << "============================" << end1;
+    for (int j = 0; j < n; j++) {
+        cout << a[j] << end;
+    }
+    cout << end1;
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
