@@ -62,6 +62,15 @@ void display() {
     cout << endl;
 }
 
+int main() {
+    input();
+    unsorted();
+    bubbleSortArray();
+    display();
+
+    return 0;
+}
+
 
 
 
